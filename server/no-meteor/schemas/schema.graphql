@@ -1,0 +1,9 @@
+type AlgoliaSettingsData {
+  appId: String
+  searchOnlyApiKey: String
+  productsIndex: String
+}
+
+extend type Query {
+  algoliaSettings: AlgoliaSettingsData
+}

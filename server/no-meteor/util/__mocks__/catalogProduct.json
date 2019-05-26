@@ -1,0 +1,339 @@
+{
+  "_id": "016170-110",
+  "createdAt": "2019-05-21T08:34:05.237Z",
+  "description": "Update his weekend line-up with this hoodie from Neil Barrett. Made from a soft cotton fleece, this hoodie features a lightning motif and side pockets. This kids hoodie is a wardrobe must-have for your little one.",
+  "inventoryAvailableToSell": 25,
+  "inventoryInStock": 25,
+  "isBackorder": false,
+  "isDeleted": false,
+  "isLowQuantity": false,
+  "isSoldOut": false,
+  "isVisible": true,
+  "media": [
+    {
+      "priority": 0,
+      "toGrid": 1,
+      "productId": "016170-110",
+      "variantId": "v101824178961",
+      "URLs": {
+        "large": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/large/016170-110.jpg",
+        "medium": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/medium/016170-110.jpg",
+        "original": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/image/016170-110.jpg",
+        "small": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/small/016170-110.png",
+        "thumbnail": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/thumbnail/016170-110.png"
+      }
+    }
+  ],
+  "originCountry": "AE",
+  "price": {
+    "range": "12 - 24",
+    "min": 12,
+    "max": 24
+  },
+  "pricing": {
+    "USD": {
+      "compareAtPrice": null,
+      "displayPrice": "$660.00",
+      "maxPrice": 660,
+      "minPrice": 660,
+      "price": null
+    }
+  },
+  "primaryImage": {
+    "priority": 0,
+    "toGrid": 1,
+    "productId": "016170-110",
+    "variantId": "v101824178961",
+    "URLs": {
+      "large": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/large/016170-110.jpg",
+      "medium": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/medium/016170-110.jpg",
+      "original": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/image/016170-110.jpg",
+      "small": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/small/016170-110.png",
+      "thumbnail": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/thumbnail/016170-110.png"
+    }
+  },
+  "productId": "016170-110",
+  "shopId": "J8Bhq3uTtdgwZx3rz",
+  "slug": "black-lightning-hoodie",
+  "socialMetadata": [
+    {
+      "service": "twitter"
+    },
+    {
+      "service": "facebook"
+    },
+    {
+      "service": "googleplus"
+    },
+    {
+      "service": "pinterest"
+    }
+  ],
+  "supportedFulfillmentTypes": [
+    "shipping"
+  ],
+  "tagIds": [
+    "tag-jackets"
+  ],
+  "title": "Black Lightning Hoodie 4",
+  "type": "product-simple",
+  "updatedAt": "2019-05-22T05:51:07.079Z",
+  "variants": [
+    {
+      "_id": "v101824178961",
+      "canBackorder": false,
+      "createdAt": "2019-05-21T08:34:04.934Z",
+      "height": 0,
+      "index": 0,
+      "inventoryAvailableToSell": 25,
+      "inventoryInStock": 25,
+      "inventoryManagement": true,
+      "inventoryPolicy": false,
+      "isBackorder": false,
+      "isLowQuantity": false,
+      "isSoldOut": false,
+      "length": 0,
+      "lowInventoryWarningThreshold": 0,
+      "media": [
+        {
+          "priority": 0,
+          "toGrid": 1,
+          "productId": "016170-110",
+          "variantId": "v101824178961",
+          "URLs": {
+            "large": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/large/016170-110.jpg",
+            "medium": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/medium/016170-110.jpg",
+            "original": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/image/016170-110.jpg",
+            "small": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/small/016170-110.png",
+            "thumbnail": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/thumbnail/016170-110.png"
+          }
+        }
+      ],
+      "optionTitle": "BLACK",
+      "originCountry": "AE",
+      "price": 660,
+      "pricing": {
+        "USD": {
+          "compareAtPrice": null,
+          "displayPrice": "$660.00",
+          "maxPrice": 660,
+          "minPrice": 660,
+          "price": 660
+        }
+      },
+      "primaryImage": {
+        "priority": 0,
+        "toGrid": 1,
+        "productId": "016170-110",
+        "variantId": "v101824178961",
+        "URLs": {
+          "large": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/large/016170-110.jpg",
+          "medium": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/medium/016170-110.jpg",
+          "original": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/image/016170-110.jpg",
+          "small": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/small/016170-110.png",
+          "thumbnail": "/assets/files/Media/cEQS2BaPLX4FqYZ8o/thumbnail/016170-110.png"
+        }
+      },
+      "shopId": "J8Bhq3uTtdgwZx3rz",
+      "title": "BLACK",
+      "updatedAt": "2019-05-21T08:34:04.934Z",
+      "variantId": "v101824178961",
+      "weight": 0,
+      "width": 0,
+      "options": [
+        {
+          "_id": "101824178961",
+          "canBackorder": false,
+          "createdAt": "2019-05-21T08:34:02.903Z",
+          "height": 2,
+          "index": 0,
+          "inventoryAvailableToSell": 25,
+          "inventoryInStock": 25,
+          "inventoryManagement": true,
+          "inventoryPolicy": true,
+          "isBackorder": false,
+          "isLowQuantity": false,
+          "isSoldOut": false,
+          "length": 2,
+          "lowInventoryWarningThreshold": 0,
+          "media": [],
+          "optionTitle": "10 Years",
+          "originCountry": "AE",
+          "price": 660,
+          "pricing": {
+            "USD": {
+              "compareAtPrice": null,
+              "displayPrice": "$660.00",
+              "maxPrice": 660,
+              "minPrice": 660,
+              "price": 660
+            }
+          },
+          "primaryImage": null,
+          "shopId": "J8Bhq3uTtdgwZx3rz",
+          "title": "10 Years",
+          "updatedAt": "2019-05-21T08:34:02.903Z",
+          "variantId": "101824178961",
+          "weight": 2,
+          "width": 2,
+          "isTaxable": false,
+          "taxCode": "0000"
+        },
+        {
+          "_id": "101824178962",
+          "canBackorder": false,
+          "createdAt": "2019-05-21T08:34:03.765Z",
+          "height": 2,
+          "index": 0,
+          "inventoryAvailableToSell": 25,
+          "inventoryInStock": 25,
+          "inventoryManagement": true,
+          "inventoryPolicy": true,
+          "isBackorder": false,
+          "isLowQuantity": false,
+          "isSoldOut": false,
+          "length": 2,
+          "lowInventoryWarningThreshold": 0,
+          "media": [],
+          "optionTitle": "12 Years",
+          "originCountry": "AE",
+          "price": 660,
+          "pricing": {
+            "USD": {
+              "compareAtPrice": null,
+              "displayPrice": "$660.00",
+              "maxPrice": 660,
+              "minPrice": 660,
+              "price": 660
+            }
+          },
+          "primaryImage": null,
+          "shopId": "J8Bhq3uTtdgwZx3rz",
+          "title": "12 Years",
+          "updatedAt": "2019-05-21T08:34:03.765Z",
+          "variantId": "101824178962",
+          "weight": 2,
+          "width": 2,
+          "isTaxable": false,
+          "taxCode": "0000"
+        },
+        {
+          "_id": "101824178963",
+          "canBackorder": false,
+          "createdAt": "2019-05-21T08:34:03.768Z",
+          "height": 2,
+          "index": 0,
+          "inventoryAvailableToSell": 25,
+          "inventoryInStock": 25,
+          "inventoryManagement": true,
+          "inventoryPolicy": true,
+          "isBackorder": false,
+          "isLowQuantity": false,
+          "isSoldOut": false,
+          "length": 2,
+          "lowInventoryWarningThreshold": 0,
+          "media": [],
+          "optionTitle": "4 Years",
+          "originCountry": "AE",
+          "price": 660,
+          "pricing": {
+            "USD": {
+              "compareAtPrice": null,
+              "displayPrice": "$660.00",
+              "maxPrice": 660,
+              "minPrice": 660,
+              "price": 660
+            }
+          },
+          "primaryImage": null,
+          "shopId": "J8Bhq3uTtdgwZx3rz",
+          "title": "4 Years",
+          "updatedAt": "2019-05-21T08:34:03.768Z",
+          "variantId": "101824178963",
+          "weight": 2,
+          "width": 2,
+          "isTaxable": false,
+          "taxCode": "0000"
+        },
+        {
+          "_id": "101824178964",
+          "canBackorder": false,
+          "createdAt": "2019-05-21T08:34:03.770Z",
+          "height": 2,
+          "index": 0,
+          "inventoryAvailableToSell": 25,
+          "inventoryInStock": 25,
+          "inventoryManagement": true,
+          "inventoryPolicy": true,
+          "isBackorder": false,
+          "isLowQuantity": false,
+          "isSoldOut": false,
+          "length": 2,
+          "lowInventoryWarningThreshold": 0,
+          "media": [],
+          "optionTitle": "6 Years",
+          "originCountry": "AE",
+          "price": 660,
+          "pricing": {
+            "USD": {
+              "compareAtPrice": null,
+              "displayPrice": "$660.00",
+              "maxPrice": 660,
+              "minPrice": 660,
+              "price": 660
+            }
+          },
+          "primaryImage": null,
+          "shopId": "J8Bhq3uTtdgwZx3rz",
+          "title": "6 Years",
+          "updatedAt": "2019-05-21T08:34:03.770Z",
+          "variantId": "101824178964",
+          "weight": 2,
+          "width": 2,
+          "isTaxable": false,
+          "taxCode": "0000"
+        },
+        {
+          "_id": "101824178965",
+          "canBackorder": false,
+          "createdAt": "2019-05-21T08:34:03.772Z",
+          "height": 2,
+          "index": 0,
+          "inventoryAvailableToSell": 25,
+          "inventoryInStock": 25,
+          "inventoryManagement": true,
+          "inventoryPolicy": true,
+          "isBackorder": false,
+          "isLowQuantity": false,
+          "isSoldOut": false,
+          "length": 2,
+          "lowInventoryWarningThreshold": 0,
+          "media": [],
+          "optionTitle": "8 Years",
+          "originCountry": "AE",
+          "price": 660,
+          "pricing": {
+            "USD": {
+              "compareAtPrice": null,
+              "displayPrice": "$660.00",
+              "maxPrice": 660,
+              "minPrice": 660,
+              "price": 660
+            }
+          },
+          "primaryImage": null,
+          "shopId": "J8Bhq3uTtdgwZx3rz",
+          "title": "8 Years",
+          "updatedAt": "2019-05-21T08:34:03.772Z",
+          "variantId": "101824178965",
+          "weight": 2,
+          "width": 2,
+          "isTaxable": false,
+          "taxCode": "0000"
+        }
+      ],
+      "isTaxable": false,
+      "taxCode": "0000"
+    }
+  ]
+}

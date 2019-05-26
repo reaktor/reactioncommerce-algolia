@@ -1,0 +1,23 @@
+{
+  "name": "reaktor-algolia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:reaktor-mea/poc/reaction-commerce/reaktor-algolia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "@reactioncommerce/logger": "^1.1.1"
+  }
+}

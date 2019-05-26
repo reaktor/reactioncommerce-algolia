@@ -1,0 +1,13 @@
+[{
+  "i18n": "en",
+  "ns": "reaktor-algolia",
+  "translation": {
+    "reaktor-algolia": {
+      "admin": {
+        "dashboard": {
+          "reaktorAlgoliaLabel": "Algolia Search"
+        }
+      }
+    }
+  }
+}]
