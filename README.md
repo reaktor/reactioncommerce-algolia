@@ -13,7 +13,7 @@ A powerful hosted search API that provides product teams with the resources & to
 https://www.algolia.com/
 
 ### How does it work?
-It's very simple, when an administrator in Reaction Commerce publishes a product to the catalog, this plugin listens to that event and updates a document in Algolia. That document is indexes and can be queried by the storefront for fast relevant search.
+It's very simple, when an administrator in Reaction Commerce publishes a product to the catalog, this plugin listens to that event and updates a document in Algolia. That document is then indexed and can be queried by the storefront for fast relevant search.
 
 The plugin provides an admin panel available to the administrator to configure the API keys and index information.
 
