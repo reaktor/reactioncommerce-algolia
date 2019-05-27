@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReaktorAlgoliaSettingsForm with settings 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      label="Algolia App Id"
+      name="appId"
+      onChange={[Function]}
+      type="text"
+      value="appId"
+    />
+    <input
+      label="Algolia Admin API Key"
+      name="adminApiKey"
+      onChange={[Function]}
+      type="text"
+      value="adminApiKey"
+    />
+    <input
+      label="Algolia Search Only API Key"
+      name="searchOnlyApiKey"
+      onChange={[Function]}
+      type="text"
+      value="searchOnlyApiKey"
+    />
+    <input
+      label="Algolia Products Index Name"
+      name="productsIndex"
+      onChange={[Function]}
+      type="text"
+      value="productsIndex"
+    />
+    <button
+      className="btn btn-primary pull-right"
+      type="submit"
+    >
+      Save Changes
+    </button>
+  </form>
+</div>
+`;
+
+exports[`ReaktorAlgoliaSettingsForm without settings 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      label="Algolia App Id"
+      name="appId"
+      onChange={[Function]}
+      type="text"
+    />
+    <input
+      label="Algolia Admin API Key"
+      name="adminApiKey"
+      onChange={[Function]}
+      type="text"
+    />
+    <input
+      label="Algolia Search Only API Key"
+      name="searchOnlyApiKey"
+      onChange={[Function]}
+      type="text"
+    />
+    <input
+      label="Algolia Products Index Name"
+      name="productsIndex"
+      onChange={[Function]}
+      type="text"
+    />
+    <button
+      className="btn btn-primary pull-right"
+      type="submit"
+    >
+      Save Changes
+    </button>
+  </form>
+</div>
+`;

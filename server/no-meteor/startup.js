@@ -1,5 +1,6 @@
-import updateAlgoliaProduct from "./util/updateAlgoliaProduct";
-import deleteAlgoliaProduct from "./util/deleteAlgoliaProduct";
+import Reaction from "/imports/plugins/core/core/server/Reaction";
+import ExportProductToAlgoliaProcessor from "./util/exportProductToAlgoliaProcessor";
+import DeleteProductInAlgoliaProcessor from "./util/deleteProductInAlgoliaProcessor";
 
 /**
  * @summary Called on startup
@@ -9,15 +10,16 @@ import deleteAlgoliaProduct from "./util/deleteAlgoliaProduct";
  */
 export default function startup(context) {
 
+  const baseCurrency = Reaction.getPrimaryShopCurrency();
+
   context.appEvents.on("afterPublishProductToCatalog", ({ catalogProduct }) => {
-    // TODO: this logic needs to improve, we need to better handle the case when a product is made invisible
     if (catalogProduct.isVisible) {
-      updateAlgoliaProduct(context, catalogProduct).execute();
+      new ExportProductToAlgoliaProcessor(context, baseCurrency).execute(catalogProduct);
     }
   });
 
   context.appEvents.on("afterProductSoftDelete", ({ product }) => {
-    deleteAlgoliaProduct(context, product);
+    new DeleteProductInAlgoliaProcessor(context).execute(product);
   });
 
 }

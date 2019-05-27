@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { TextField, Translation } from "/imports/plugins/core/ui/client/components";
 
 class ReaktorAlgoliaSettingsForm extends Component {
   constructor(props) {
@@ -28,14 +27,13 @@ class ReaktorAlgoliaSettingsForm extends Component {
 
 
   render() {
-    const { settings } = this.props;
     const setting = this.state.settings;
 
     return (
       <div>
 
         <form onSubmit={this.handleSubmit}>
-          <TextField
+          <input
             label="Algolia App Id"
             name="appId"
             type="text"
@@ -43,7 +41,7 @@ class ReaktorAlgoliaSettingsForm extends Component {
             value={setting.appId}
           />
 
-          <TextField
+          <input
             label="Algolia Admin API Key"
             name="adminApiKey"
             type="text"
@@ -51,7 +49,7 @@ class ReaktorAlgoliaSettingsForm extends Component {
             value={setting.adminApiKey}
           />
 
-          <TextField
+          <input
             label="Algolia Search Only API Key"
             name="searchOnlyApiKey"
             type="text"
@@ -59,7 +57,7 @@ class ReaktorAlgoliaSettingsForm extends Component {
             value={setting.searchOnlyApiKey}
           />
 
-          <TextField
+          <input
             label="Algolia Products Index Name"
             name="productsIndex"
             type="text"
@@ -68,7 +66,7 @@ class ReaktorAlgoliaSettingsForm extends Component {
           />
 
           <button className="btn btn-primary pull-right" type="submit">
-            <Translation defaultValue="Save Changes" i18nKey="app.saveChanges"/>
+            Save Changes
           </button>
         </form>
 
