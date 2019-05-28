@@ -14,19 +14,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/core": "7.0.0",
+    "@babel/plugin-proposal-class-properties": "7.0.0",
+    "@babel/preset-env": "7.0.0",
     "@babel/preset-react": "^7.0.0",
     "jest": "^24.8.0",
-    "nock": "^10.0.6",
-    "react-dom": "^16.8.6",
-    "react-test-renderer": "^16.8.6"
+    "react-dom": "^16.4.2",
+    "react-test-renderer": "^16.4.2"
   },
   "dependencies": {
-    "@reactioncommerce/components": "^0.65.2",
+    "@reactioncommerce/components": "^0.62.1",
     "@reactioncommerce/logger": "^1.1.1",
     "algoliasearch": "^3.33.0",
-    "react": "^16.8.6"
+    "react": "^16.4.2"
   }
 }
