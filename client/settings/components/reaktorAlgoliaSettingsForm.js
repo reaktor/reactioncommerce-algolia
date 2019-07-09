@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { TextField, Translation } from "@reactioncommerce/reaction-ui";;
+import TextField from "@material-ui/core/TextField";
 
 class ReaktorAlgoliaSettingsForm extends Component {
   constructor(props) {
@@ -67,7 +67,7 @@ class ReaktorAlgoliaSettingsForm extends Component {
           />
 
           <button className="btn btn-primary pull-right" type="submit">
-            <Translation defaultValue="Save Changes" i18nKey="app.saveChanges"/>
+            Save Changes
           </button>
         </form>
 

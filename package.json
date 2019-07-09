@@ -31,17 +31,14 @@
             "./"
           ],
           "alias": {
-            "@reactioncommerce/reaction-collections": "./imports/plugins/core/collections",
-            "@reactioncommerce/reaction-components": "./imports/plugins/core/components/lib",
-            "@reactioncommerce/reaction-router": "./imports/plugins/core/router/lib",
-            "@reactioncommerce/reaction-ui": "./imports/plugins/core/ui/client/components"
+            "@reactioncommerce/reaction-components": "./imports/plugins/core/components/lib"
           }
         }
       ]
     ]
   },
   "dependencies": {
-    "@reactioncommerce/components": "^0.62.1",
+    "@material-ui/core": "^3.9.2",
     "@reactioncommerce/logger": "^1.1.1",
     "algoliasearch": "^3.33.0",
     "react": "^16.4.2"
