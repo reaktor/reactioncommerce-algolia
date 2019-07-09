@@ -5,34 +5,114 @@ exports[`ReaktorAlgoliaSettingsForm with settings 1`] = `
   <form
     onSubmit={[Function]}
   >
-    <input
-      label="Algolia App Id"
-      name="appId"
-      onChange={[Function]}
-      type="text"
-      value="appId"
-    />
-    <input
-      label="Algolia Admin API Key"
-      name="adminApiKey"
-      onChange={[Function]}
-      type="text"
-      value="adminApiKey"
-    />
-    <input
-      label="Algolia Search Only API Key"
-      name="searchOnlyApiKey"
-      onChange={[Function]}
-      type="text"
-      value="searchOnlyApiKey"
-    />
-    <input
-      label="Algolia Products Index Name"
-      name="productsIndex"
-      onChange={[Function]}
-      type="text"
-      value="productsIndex"
-    />
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiFormLabel-filled-20 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-shrink-12"
+        data-shrink={true}
+      >
+        Algolia App Id
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="appId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value="appId"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiFormLabel-filled-20 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-shrink-12"
+        data-shrink={true}
+      >
+        Algolia Admin API Key
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="adminApiKey"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value="adminApiKey"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiFormLabel-filled-20 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-shrink-12"
+        data-shrink={true}
+      >
+        Algolia Search Only API Key
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="searchOnlyApiKey"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value="searchOnlyApiKey"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiFormLabel-filled-20 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-shrink-12"
+        data-shrink={true}
+      >
+        Algolia Products Index Name
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="productsIndex"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value="productsIndex"
+        />
+      </div>
+    </div>
     <button
       className="btn btn-primary pull-right"
       type="submit"
@@ -48,30 +128,110 @@ exports[`ReaktorAlgoliaSettingsForm without settings 1`] = `
   <form
     onSubmit={[Function]}
   >
-    <input
-      label="Algolia App Id"
-      name="appId"
-      onChange={[Function]}
-      type="text"
-    />
-    <input
-      label="Algolia Admin API Key"
-      name="adminApiKey"
-      onChange={[Function]}
-      type="text"
-    />
-    <input
-      label="Algolia Search Only API Key"
-      name="searchOnlyApiKey"
-      onChange={[Function]}
-      type="text"
-    />
-    <input
-      label="Algolia Products Index Name"
-      name="productsIndex"
-      onChange={[Function]}
-      type="text"
-    />
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+        data-shrink={false}
+      >
+        Algolia App Id
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="appId"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+        data-shrink={false}
+      >
+        Algolia Admin API Key
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="adminApiKey"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+        data-shrink={false}
+      >
+        Algolia Search Only API Key
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="searchOnlyApiKey"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root-1"
+    >
+      <label
+        className="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+        data-shrink={false}
+      >
+        Algolia Products Index Name
+      </label>
+      <div
+        className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input-46 MuiInput-input-31"
+          disabled={false}
+          name="productsIndex"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+      </div>
+    </div>
     <button
       className="btn btn-primary pull-right"
       type="submit"
