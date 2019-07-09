@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import TextField from "@material-ui/core/TextField";
 
 class ReaktorAlgoliaSettingsForm extends Component {
   constructor(props) {
@@ -31,47 +30,61 @@ class ReaktorAlgoliaSettingsForm extends Component {
     const setting = this.state.settings;
 
     return (
-      <div>
-
         <form onSubmit={this.handleSubmit}>
-          <TextField
-            label="Algolia App Id"
-            name="appId"
-            type="text"
-            onChange={this.handleStateChange}
-            value={setting.appId}
-          />
 
-          <TextField
-            label="Algolia Admin API Key"
-            name="adminApiKey"
-            type="text"
-            onChange={this.handleStateChange}
-            value={setting.adminApiKey}
-          />
+          <div>
+            <label>
+              Algolia App Id:
+              <input
+                name="appId"
+                type="text"
+                onChange={this.handleStateChange}
+                value={setting.appId}
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              Algolia Admin API Key
+              <input
+                name="adminApiKey"
+                type="text"
+                onChange={this.handleStateChange}
+                value={setting.adminApiKey}
+              />
+            </label>
+          </div>
 
-          <TextField
-            label="Algolia Search Only API Key"
-            name="searchOnlyApiKey"
-            type="text"
-            onChange={this.handleStateChange}
-            value={setting.searchOnlyApiKey}
-          />
+          <div>
+            <label>
+              Algolia Search Only API Key
+              <input
+                name="searchOnlyApiKey"
+                type="text"
+                onChange={this.handleStateChange}
+                value={setting.searchOnlyApiKey}
+              />
+            </label>
+          </div>
 
-          <TextField
-            label="Algolia Products Index Name"
-            name="productsIndex"
-            type="text"
-            onChange={this.handleStateChange}
-            value={setting.productsIndex}
-          />
+          <div>
+            <label>
+              Algolia Products Index Name
+              <input
+                label="Algolia Products Index Name"
+                name="productsIndex"
+                type="text"
+                onChange={this.handleStateChange}
+                value={setting.productsIndex}
+              />
+            </label>
+          </div>
 
           <button className="btn btn-primary pull-right" type="submit">
             Save Changes
           </button>
         </form>
 
-      </div>
     );
   }
 }
