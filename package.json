@@ -22,6 +22,24 @@
     "react-dom": "^16.4.2",
     "react-test-renderer": "^16.4.2"
   },
+  "babel": {
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": [
+            "./"
+          ],
+          "alias": {
+            "@reactioncommerce/reaction-collections": "./imports/plugins/core/collections",
+            "@reactioncommerce/reaction-components": "./imports/plugins/core/components/lib",
+            "@reactioncommerce/reaction-router": "./imports/plugins/core/router/lib",
+            "@reactioncommerce/reaction-ui": "./imports/plugins/core/ui/client/components"
+          }
+        }
+      ]
+    ]
+  },
   "dependencies": {
     "@reactioncommerce/components": "^0.62.1",
     "@reactioncommerce/logger": "^1.1.1",
